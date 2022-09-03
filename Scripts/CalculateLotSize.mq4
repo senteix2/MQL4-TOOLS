@@ -13,8 +13,8 @@
 //+------------------------------------------------------------------+
 //| Script program start function                                    |
 //+------------------------------------------------------------------+
-input double maxRiskPercentagetaken = 0.01 ;
-input int pips= 30;
+input double maxRiskPercentagetaken = 0.0025 ;
+input int pips= 5;
 extern string currentSymbol = ""; //
 
 void OnStart()
